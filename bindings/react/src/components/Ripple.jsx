@@ -52,7 +52,18 @@ Ripple.propTypes = {
    *  [/en]
    *  [ja][/ja]
    */
-  disabled: PropTypes.bool
+  disabled: PropTypes.bool,
+   
+  /**
+   * @name modifier
+   * @type string
+   * @description
+   *  [en]
+   *  Specify modifier name to specify custom styles. Optional.
+   *  [/en]
+   *  [ja][/ja]
+   */
+  modifier: PropTypes.string
 };
 
 export default Ripple;
